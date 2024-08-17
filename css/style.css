@@ -1,0 +1,36 @@
+
+.calculator {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.calculator h1 {
+    background: linear-gradient(90deg, #DEE5E6 0%, #7E7C7F 50%, #1D1D1D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-size: 60px;
+}
+#display {
+    width: 100%;
+    padding: 20px;
+    margin: 15px;
+}
+.button {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 0;
+    margin: 8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.button:hover {
+    background: linear-gradient(90deg, #DEE5E6 0%, #7E7C7F 50%, #1D1D1D 100%);
+    
+}
